@@ -267,6 +267,7 @@ export const createLocalMembership$ = ({
 
   mediaErrors$.pipe(scope.bind()).subscribe((error) => {
     if (error) {
+      // setMatrixError(new UnknownCallError(error));
       // This is a MediaDevice error, can be PermissionDenied, NotFound, DeviceInUse, Other.
       // Will also occurs if you cancel screen sharing browser prompt.
       // This is not necessarily fatal, since the user might be able to join without media.
