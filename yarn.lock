@@ -2703,10 +2703,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@matrix-org/matrix-sdk-crypto-wasm@npm:^15.0.0":
-  version: 15.3.0
-  resolution: "@matrix-org/matrix-sdk-crypto-wasm@npm:15.3.0"
-  checksum: 10c0/45628f36b7b0e54a8777ae67a7233dbdf3e3cf14e0d95d21f62f89a7ea7e3f907232f1eb7b1262193b1e227759fad47af829dcccc103ded89011f13c66f01d76
+"@matrix-org/matrix-sdk-crypto-wasm@npm:^14.2.0":
+  version: 14.2.1
+  resolution: "@matrix-org/matrix-sdk-crypto-wasm@npm:14.2.1"
+  checksum: 10c0/60a33507a8612f0bf2591291d73e6a67154e93b0cb76e87a14df607475b123ecd32daaac7b808275f932de9687d6118ca74539196c0a650e3066ff5b45af7614
   languageName: node
   linkType: hard
 
@@ -7111,7 +7111,7 @@ __metadata:
     livekit-client: "npm:^2.13.0"
     lodash-es: "npm:^4.17.21"
     loglevel: "npm:^1.9.1"
-    matrix-js-sdk: "npm:37.11.0"
+    matrix-js-sdk: "https://github.com/matrix-org/matrix-js-sdk.git#commit=adaf92162377414df620e004d8c58c67118490ca"
     matrix-widget-api: "npm:^1.13.0"
     normalize.css: "npm:^8.0.1"
     observable-hooks: "npm:^4.2.3"
@@ -9824,12 +9824,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"matrix-js-sdk@npm:37.11.0":
-  version: 37.11.0
-  resolution: "matrix-js-sdk@npm:37.11.0"
+"matrix-js-sdk@https://github.com/matrix-org/matrix-js-sdk.git#commit=adaf92162377414df620e004d8c58c67118490ca":
+  version: 37.8.0
+  resolution: "matrix-js-sdk@https://github.com/matrix-org/matrix-js-sdk.git#commit=adaf92162377414df620e004d8c58c67118490ca"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@matrix-org/matrix-sdk-crypto-wasm": "npm:^15.0.0"
+    "@matrix-org/matrix-sdk-crypto-wasm": "npm:^14.2.0"
     another-json: "npm:^0.2.0"
     bs58: "npm:^6.0.0"
     content-type: "npm:^1.0.4"
@@ -9842,7 +9842,7 @@ __metadata:
     sdp-transform: "npm:^2.14.1"
     unhomoglyph: "npm:^1.0.6"
     uuid: "npm:11"
-  checksum: 10c0/0dfa0bdaf899510e699b86898a8bb6bbc969d6b920770afbdc8c54b802c3fcdaff9c43272996a674eeec5b3a90a5a5ba9c49749630cea8e88a02995174ef9e86
+  checksum: 10c0/8e842056ff926c615d53a4a333c9e54d0fbe7f88b97b55629464e67850cc512606accde6a8724dd48ac82714483f685515913b5556e9824c4d63c443317be1ef
   languageName: node
   linkType: hard
 
