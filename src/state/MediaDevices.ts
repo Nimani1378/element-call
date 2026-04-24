@@ -367,6 +367,9 @@ class ControlledAudioOutput
         availableRaw,
       );
     });
+    this.availableRaw$.subscribe((availableRaw) => {
+      logger.info("[controlled-output] available raw devices:", availableRaw);
+    });
   }
 }
 

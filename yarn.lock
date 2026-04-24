@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 9
   cacheKey: 10c0
 
 "@actions/core@npm:^1.10.1":
@@ -7537,7 +7537,7 @@ __metadata:
     livekit-client: "npm:^2.15.13"
     lodash-es: "npm:^4.17.21"
     loglevel: "npm:^1.9.1"
-    matrix-js-sdk: "github:matrix-org/matrix-js-sdk#head=develop"
+    matrix-js-sdk: "npm:38.4.0"
     matrix-widget-api: "npm:^1.13.0"
     normalize.css: "npm:^8.0.1"
     observable-hooks: "npm:^4.2.3"
@@ -10305,9 +10305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"matrix-js-sdk@github:matrix-org/matrix-js-sdk#head=develop":
-  version: 38.3.0
-  resolution: "matrix-js-sdk@https://github.com/matrix-org/matrix-js-sdk.git#commit=41d70d0b5d3f0eba92686f8089cb329d875b26b5"
+"matrix-js-sdk@npm:38.4.0":
+  version: 38.4.0
+  resolution: "matrix-js-sdk@npm:38.4.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm": "npm:^15.3.0"
@@ -10323,11 +10323,21 @@ __metadata:
     sdp-transform: "npm:^2.14.1"
     unhomoglyph: "npm:^1.0.6"
     uuid: "npm:13"
-  checksum: 10c0/b48528fec573f3e14d1297f360a56d52d7f313da0d4cf82ab51e4c29798b86995b8a6bd72409779746e7bcf02949bc2788bffa9aba276bfb1a76dbcbe89900a0
+  checksum: 10c0/87fd48f0120833d13e2ef2e6720e19ef195e1d76ff4623622e5e34357441b23767d8d324b2affebd34b9ff851505aa0f826c74c298a88b0c04203600c313cbdb
   languageName: node
   linkType: hard
 
-"matrix-widget-api@npm:^1.10.0, matrix-widget-api@npm:^1.13.0":
+"matrix-widget-api@npm:^1.10.0":
+  version: 1.17.0
+  resolution: "matrix-widget-api@npm:1.17.0"
+  dependencies:
+    "@types/events": "npm:^3.0.0"
+    events: "npm:^3.2.0"
+  checksum: 10c0/3651c860900149ecc2fe74640b47687bab8a347eb718a522085189e2b84efe462c9d81c1e8caff08d122f0b3e9cef8303a5802837673e5c9b465f7624c56a8f3
+  languageName: node
+  linkType: hard
+
+"matrix-widget-api@npm:^1.13.0":
   version: 1.13.1
   resolution: "matrix-widget-api@npm:1.13.1"
   dependencies:
